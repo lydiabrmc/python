@@ -1,0 +1,15 @@
+width = int(5)
+height = int(3)
+print("Rectangle of width " + str(width) + " and height " + str(height) + " has an area of " + str(width * height))
+print(len("python"))
+word = "python"
+print(word[0])
+print(word[2])
+name = str(input("What is your name?"))
+print("Hello, " + name)
+age = int(input("How old are you?"))
+age_in_fifteen_years = age + 15
+print("You will be " + str(age_in_fifteen_years) + " in 15 years time")
+print("Hello, " + name + " you are currently " + str(age) + " years old. In 15 years time you will be " + str(age_in_fifteen_years))
+yourhometown = str(input("Please enter your hometown."))
+print(yourhometown.upper())
